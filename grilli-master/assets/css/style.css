@@ -2,8 +2,13 @@
   #index.css
 \*-----------------------------------*/
 
+/* logo css */
+.logo1 {
+  border-radius: 10px;
+  box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.5);
+}
 
-
+/* logo css end */
 
 /*-----------------------------------*\
   #CUSTOM PROPERTY
@@ -535,7 +540,7 @@ body.nav-active { overflow: hidden; }
 .preload.loaded > * { opacity: 0; }
 
 .preload.loaded {
-  transition-delay: 250ms;
+  transition-delay: 300ms;
   transform: translateY(100%);
 }
 
@@ -829,7 +834,7 @@ body.nav-active { overflow: hidden; }
 
 .hero-btn {
   position: absolute;
-  bottom: 15px;
+  top:570px;
   right: 15px;
   z-index: 2;
   background-color: var(--gold-crayola);
