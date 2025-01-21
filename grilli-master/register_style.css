@@ -13,7 +13,10 @@ body {
   align-items: center;
   height: 100vh;
 }
-
+.image{
+  display: flex;
+  justify-content: center;
+}
 @keyframes zoomIn {
   0% {
     opacity: 0;
@@ -91,7 +94,7 @@ button {
   display: block;
   width: 100%;
   padding: 12px;
-  background-color: #4CAF50;
+  background-color: #f36925;
   color: white;
   border: none;
   border-radius: 8px;
