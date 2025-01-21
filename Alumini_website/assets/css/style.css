@@ -1312,6 +1312,12 @@ textarea.input-field {
   margin-inline: auto;
   margin-block-start: 40px;
 }
+.kunal1{
+  display:flex;
+  justify-content: center;
+  width: 10px;
+  text-align: center;
+}
 
 
 
